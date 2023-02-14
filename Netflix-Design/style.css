@@ -52,7 +52,7 @@ h3{
 }
 .primaryBtn{
     background-color: #e50914;
-    border-radius: 6px;
+    border-radius: 4px;
     font-weight: 400;
     color: #ffffff !important;
     padding: 4px 15px;
@@ -67,7 +67,7 @@ h3{
 .secondaryBtn{
     border: 0.1px solid #555555;
     padding: 4px 15px;
-    border-radius: 6px;
+    border-radius: 4px;
     font-weight: 400;
     color: #ffffff !important;
     transition: 0.2s ease-out;
@@ -132,6 +132,7 @@ header>h3{
 }
 .qna{
     background-color: #000000;
+    border-bottom: 8px solid #2d2d2d;
 }
 .qna h3{
     font-weight: 400;
@@ -148,4 +149,33 @@ header>h3{
     justify-content: space-between;
     padding: 25px 20px;
     background-color: #2d2d2d;
+}
+.qnaBtn{
+    text-align: center;
+}
+
+.footer{
+    background-color: #000000;
+}
+.footer p{
+    margin-top: 40px;
+}
+.footerContainer{
+    flex-direction: column;
+    gap: 30px;
+}
+.footerContent{
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.footerContent a{
+    color: #cddcf2;
+    font-size: 0.9rem;
+}
+.footerBox{
+    gap: 25%;
+}
+.footerBtn p{
+    margin-block: 40px;
 }
